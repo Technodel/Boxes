@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technodel Boxes - Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #38bdf8;
+            --primary-glow: rgba(56, 189, 248, 0.35);
+            --bg: #030712;
+            --card: #111827;
+            --text: #f1f5f9;
+        }
+        body {
+            font-family: 'Outfit', 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            background-image:
+                radial-gradient(circle at top right, #1e1b4b 0%, transparent 50%),
+                radial-gradient(circle at bottom left, #0c4a6e 0%, transparent 50%);
+            color: var(--text);
+            margin: 0;
+            padding: 2rem 2rem 5rem;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 750px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* ── Machine ID card at very top ── */
+        .machine-id-card {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--primary-glow);
+            padding: 1.2rem 1.5rem;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(56,189,248,0.12);
+        }
+        .machine-id-card strong {
+            display: block;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.75rem;
+            margin-bottom: 6px;
+        }
+        .machine-id-card p {
+            margin: 0;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(to right, #7dd3fc, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            word-break: break-all;
+            line-height: 1.5;
+        }
+
+        /* ── Main content card ── */
+        .main-card {
+            background: var(--card);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 2.4rem;
+            margin: 0 0 0.5rem 0;
+            font-weight: 800;
+        }
+        .subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        /* ── Features block ── */
+        .features {
+            background: rgba(0,0,0,0.2);
+            border-radius: 16px;
+            padding: 1.8rem;
+            border: 1px solid rgba(255,255,255,0.04);
+        }
+        .features h2 {
+            color: var(--primary);
+            margin: 0 0 1.2rem 0;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .features h2::before {
+            content: "";
+            width: 4px;
+            height: 18px;
+            background: var(--primary);
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .feature-list li {
+            padding: 11px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            line-height: 1.55;
+            color: #cbd5e1;
+            font-size: 0.97rem;
+        }
+        .feature-list li::before {
+            content: "✦";
+            color: var(--primary);
+            font-size: 1rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .feature-list li:last-child { border-bottom: none; }
+
+        .footer {
+            margin-top: 1.5rem;
+            text-align: center;
+            font-size: 0.82rem;
+            color: #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Machine ID always on top -->
+        <div class="machine-id-card">
+            <strong>Your Machine ID</strong>
+            <p id="machine-id">e72f1e1a1da7c41dfcfa416071ce380e2ee3e51aae42ae9ac8b34ffebee2fa2f</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-card">
+            <h1>Technodel Boxes</h1>
+            <div class="subtitle">Laptop inventory tracking system organized by storage box.</div>
+
+            <div class="features">
+                <h2>Features</h2>
+                <ul class="feature-list">
+                    <li>Create and manage named storage boxes, each holding multiple laptops.</li>
+                <li>Add laptops individually or in bulk (paste a list of names).</li>
+                <li>Drag-and-drop laptops between boxes with a logged move comment.</li>
+                <li>Mark any laptop as SOLD — it is removed and the sold counter updates.</li>
+                <li>Toggle laptop status between "Ready" and "Not Ready" for quick prep checks.</li>
+                <li>Global search (Ctrl+K) to instantly find any laptop across all boxes.</li>
+                <li>Full activity history log with timestamps, filterable and clearable.</li>
+                <li>State syncs to the local dashboard server and falls back to localStorage.</li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                &copy; 2026 Technodel Systems &nbsp;|&nbsp; All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- Galaxy Branding Footer pill -->
+    <div style="
+        position: fixed; bottom: 15px; left: 50%; transform: translateX(-50%);
+        display: flex; align-items: center; gap: 10px; z-index: 999999;
+        pointer-events: none;
+        background: rgba(0,0,0,0.48);
+        padding: 5px 16px 5px 8px;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.12);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.55);
+        white-space: nowrap;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    ">
+        <img src="../galaxy.png" alt="Galaxy"
+             onerror="this.src='galaxy.png'; this.onerror=()=>{this.style.display='none'};"
+             style="width:42px;height:42px;border-radius:50%;object-fit:cover;border:1.5px solid rgba(255,200,80,0.55);">
+        <div style="display:flex;flex-direction:column;line-height:1.2;">
+            <span style="font-size:11.5px;font-weight:700;color:#f0e6c8;letter-spacing:.3px;">By Galaxy</span>
+            <span style="font-size:9.5px;color:#94a3b8;letter-spacing:.5px;">03659872</span>
+        </div>
+    </div>
+
+    <script>
+        // Poll /galaxy-id (injected by the Shield when the EXE runs)
+        async function fetchId(retries) {
+            const el = document.getElementById('machine-id');
+            // If the EXE already wrote the ID into the file, the tag won't say "Detecting"
+            if (el && !el.innerText.includes('Detecting') && !el.innerText.includes('...')) return;
+            try {
+                const r = await fetch('/galaxy-id?t=' + Date.now());
+                if (r.ok) {
+                    const id = await r.text();
+                    if (id && id.length > 5 && id !== 'ID-PENDING...') {
+                        el.innerText = id;
+                        return;
+                    }
+                }
+            } catch(e) {}
+            if (retries > 0) setTimeout(() => fetchId(retries - 1), 1500);
+        }
+        window.onload = () => fetchId(20);
+    </script>
+</body>
+</html>

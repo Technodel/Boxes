@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technodel's Box Manager</title>
+    <meta name="description" content="Manage used laptop inventory — Technodel version.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- ═══════════ SEARCH BAR (top) ═══════════ -->
+    <header id="topbar">
+        <div class="topbar-inner">
+            <div class="logo">
+                <span class="logo-icon">📦</span>
+                <h1>Technodel's Box Manager</h1>
+            </div>
+            <div class="search-wrapper" id="searchWrapper">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <input type="text" id="searchInput" placeholder="Search laptops across all boxes…" autocomplete="off">
+                <kbd class="search-shortcut" id="searchShortcut">Ctrl+K</kbd>
+                <div id="searchResults" class="search-results hidden"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="app-layout">
+        <!-- ═══════════ SIDEBAR ═══════════ -->
+        <aside id="sidebar">
+            <!-- Add New Box -->
+            <section class="sidebar-section">
+                <h2 class="section-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                    </svg>
+                    New Box
+                </h2>
+                <form id="addBoxForm" class="inline-form">
+                    <input type="text" id="boxNameInput" placeholder="Box name (e.g. Box-1)" required>
+                    <button type="submit" class="btn btn-accent" title="Add box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="5" x2="12" y2="19" />
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                        </svg>
+                    </button>
+                </form>
+            </section>
+
+            <!-- Add Laptop -->
+            <section class="sidebar-section">
+                <h2 class="section-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                        <line x1="2" y1="20" x2="22" y2="20" />
+                    </svg>
+                    Add Laptop
+                </h2>
+                <form id="addLaptopForm" class="stack-form">
+                    <input type="text" id="laptopNameInput" placeholder="Laptop name (e.g. Dell Latitude 5510)"
+                        required>
+                    <select id="boxSelect" required>
+                        <option value="" disabled selected>Choose a box…</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="5" x2="12" y2="19" />
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                        </svg>
+                        Add Laptop
+                    </button>
+                    <button type="button" class="btn btn-ghost btn-full" id="bulkAddBtn" style="margin-top: 4px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="12" y1="18" x2="12" y2="12"></line>
+                            <line x1="9" y1="15" x2="15" y2="15"></line>
+                        </svg>
+                        Bulk Add (many)
+                    </button>
+                </form>
+            </section>
+
+            <!-- Box List -->
+            <section class="sidebar-section sidebar-section-grow">
+                <h2 class="section-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                    </svg>
+                    Boxes
+                    <span class="badge" id="boxCountBadge">0</span>
+                </h2>
+                <ul id="boxList" class="box-list"></ul>
+            </section>
+
+            <!-- History Tracker -->
+            <section class="sidebar-section history-section">
+                <h2 class="section-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 4 23 10 17 10"></polyline>
+                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                    </svg>
+                    History
+                </h2>
+                <div class="history-controls">
+                    <button id="clearHistoryBtn" class="btn btn-ghost btn-sm btn-clear" title="Clear All History">Clear
+                        All</button>
+                    <div class="clear-older-group">
+                        <select id="clearOlderSelect" class="select-sm">
+                            <option value="1">1 month</option>
+                            <option value="2">2 months</option>
+                            <option value="3">3 months</option>
+                            <option value="6">6 months</option>
+                            <option value="12">12 months</option>
+                        </select>
+                        <button id="clearOlderBtn" class="btn btn-ghost btn-sm"
+                            title="Clear older than selected months">Clear Older</button>
+                    </div>
+                </div>
+                <div class="history-search-wrapper">
+                    <input type="text" id="historySearchInput" placeholder="Search history..." autocomplete="off">
+                </div>
+                <div id="historyList" class="history-list">
+                    <!-- History items will be injected here -->
+                </div>
+            </section>
+
+            <!-- Stats -->
+            <section class="sidebar-section sidebar-stats">
+                <div class="stat">
+                    <span class="stat-value" id="totalLaptops">0</span>
+                    <span class="stat-label">Laptops</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="totalBoxes">0</span>
+                    <span class="stat-label">Boxes</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="totalSold">0</span>
+                    <span class="stat-label">Sold</span>
+                </div>
+            </section>
+        </aside>
+
+        <!-- ═══════════ MAIN STOCK VIEW ═══════════ -->
+        <main id="stockView">
+            <div class="main-header">
+                <h2>Stock Overview</h2>
+                <div class="view-controls">
+                    <button class="btn btn-ghost active" id="btnGridView" title="Grid view">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7" />
+                            <rect x="14" y="3" width="7" height="7" />
+                            <rect x="3" y="14" width="7" height="7" />
+                            <rect x="14" y="14" width="7" height="7" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-ghost" id="btnListView" title="List view">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="8" y1="6" x2="21" y2="6" />
+                            <line x1="8" y1="12" x2="21" y2="12" />
+                            <line x1="8" y1="18" x2="21" y2="18" />
+                            <line x1="3" y1="6" x2="3.01" y2="6" />
+                            <line x1="3" y1="12" x2="3.01" y2="12" />
+                            <line x1="3" y1="18" x2="3.01" y2="18" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="stockGrid" class="stock-grid"></div>
+            <div id="emptyState" class="empty-state">
+                <div class="empty-icon">📦</div>
+                <h3>No boxes yet</h3>
+                <p>Create a box in the sidebar to get started</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- ═══════════ MOVE MODAL ═══════════ -->
+    <div id="moveModal" class="modal-overlay hidden">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Move Laptop</h3>
+                <button class="btn btn-ghost modal-close" id="moveModalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="moveLaptopInfo"></p>
+                <label for="moveTargetBox">Move to box:</label>
+                <select id="moveTargetBox"></select>
+                <label for="moveComment">Comment (optional):</label>
+                <textarea id="moveComment" placeholder="Reason for move..." rows="2"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-ghost" id="moveCancelBtn">Cancel</button>
+                <button class="btn btn-primary" id="moveConfirmBtn">Move</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ CONFIRM SOLD MODAL ═══════════ -->
+    <div id="soldModal" class="modal-overlay hidden">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Confirm Sale</h3>
+                <button class="btn btn-ghost modal-close" id="soldModalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="soldLaptopInfo"></p>
+                <label for="soldComment">Comment (optional):</label>
+                <textarea id="soldComment" placeholder="Customer name, price, notes..." rows="2"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-ghost" id="soldCancelBtn">Cancel</button>
+                <button class="btn btn-sold" id="soldConfirmBtn">🏷️ Mark as Sold</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ BULK ADD MODAL ═══════════ -->
+    <div id="bulkModal" class="modal-overlay hidden">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Bulk Add Laptops</h3>
+                <button class="btn btn-ghost modal-close" id="bulkModalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <label for="bulkBoxSelect">Target Box:</label>
+                <select id="bulkBoxSelect"></select>
+                <label for="bulkInput" style="margin-top: 12px; display: block;">Laptop Names (one per line):</label>
+                <textarea id="bulkInput" placeholder="Dell Latitude 5510&#10;HP EliteBook 840&#10;Lenovo ThinkPad X1"
+                    rows="8"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-ghost" id="bulkCancelBtn">Cancel</button>
+                <button class="btn btn-accent" id="bulkConfirmBtn">Add All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <script src="app.js"></script>
+    <script src="http://localhost:3051/branding.js"></script>
+</body>
+
+</html>

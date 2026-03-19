@@ -1,1 +1,2858 @@
-{"boxes":{"ali":[],"ali 2":[],"box 3":[]},"history":[{"id":"mmnyebrj9oi2n","timestamp":"2026-03-12T21:01:58.927Z","type":"ADD_BOX","box":"box 3"},{"type":"ADD_BOX","box":"ali 2","timestamp":"2026-03-10T23:18:20.821Z"},{"type":"ADD_BOX","box":"ali","timestamp":"2026-03-10T23:18:16.067Z"}],"totalSold":0,"viewMode":"grid"}
+
+{
+    "boxes": {
+        "10": [
+            {
+                "id": "c46x791tp",
+                "name": "DELL 7730 I9 GEN 8",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "8pgqspu4g",
+                "name": "ASUS TUFF I7 GEN 10",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "5qadl293b",
+                "name": "LENOVO X1 YOGA I5 GEN 7",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "da139e5y6",
+                "name": "LENOVO X1 YOGA I5 GEN 7",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "4jxilt45d",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "ho94hflkg",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "6oho66taj",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "zhv1r6ved",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "nkl6fwnqq",
+                "name": "DELL 3500 I3 GEN 8",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "qq0w8n6ip",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "uc8c3eu8j",
+                "name": "DELL 3500 I3 GEN 8",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "jc4i2370v",
+                "name": "DELL 3590 I7 GEN 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "dez0ws83d",
+                "name": "DELL XPS I7 GEN 6 2G VGA",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "1fea6qp9t",
+                "name": "DELL 5570 I3 GEN 7",
+                "number": 14,
+                "status": "not_ready"
+            }
+        ],
+        "11": [
+            {
+                "id": "jbn39ijux",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "ch61ltqrc",
+                "name": "DELL 7530 I8 GEN 8",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "vv6zcmxt1",
+                "name": "HP 650 G5 I7 GEN 8",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "dm2nzhkn4",
+                "name": "DELL 7510 I7 GEN 6",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "gjlm5txqg",
+                "name": "DELL 7540 I9 GEN 9",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "tfpj1y1x3",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "o48wsysti",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "ig1ia43k5",
+                "name": "LENOVO V15 G3 I3 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "6nv3qvxd4",
+                "name": "LENOVO L13 I5 GEN 10",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "mmxlqv82o",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "qzedlzb4l",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "0b4thvrt3",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "vtzgn6gen",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "2vcpm5i4d",
+                "name": "LENOVO P16S I7 GEN 13 VGA 4G",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "7wkypr6gz",
+                "name": "DELL 7560 I7 GEN 11 VGA 6G",
+                "number": 15,
+                "status": "not_ready"
+            }
+        ],
+        "12": [
+            {
+                "id": "yr7sv12dc",
+                "name": "DELL 7560 I7 GEN 11 VGA 4GB",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "80ymh4stb",
+                "name": "DELL 7670 I7 GEN 13 VGA 4GB",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "y0pr1lr73",
+                "name": "HP ZBOOK I7 GEN 10 VGA 4GB",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "cayydjbjr",
+                "name": "DELL 3581 I9 GEN 13 VGA 8GB",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "3bwh41zyq",
+                "name": "HP ZBOOK I7 GEN 10 VGA 4GB",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "dt3ixlbr9",
+                "name": "DELL INSP. 3567 I5 GEN7",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "lnppskcyy",
+                "name": "DELL INSP. 3583 CELERON",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "16260mygu",
+                "name": "DELL INSP. 3583 CELERON",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "tk3pxtokk",
+                "name": "DELL VOST. 3583 I5 GEN 8",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "737mdamyc",
+                "name": "DELL INSP. 3585 AMD RYZEN",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "3ylpkp3rv",
+                "name": "TOSHIBA C55 I3 GEN 4",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "uwk9atg9b",
+                "name": "SURFACE PRO6 I5 GEN 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "l8exxik8o",
+                "name": "SURFACE PRO6 I5 GEN 8",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "x9pmbf1cc",
+                "name": "SURFACE PRO6 I5 GEN 8",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "6p1s46cpm",
+                "name": "SURFACE PRO6 I5 GEN 8",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "goqqk2c7m",
+                "name": "SURFACE PRO6 I5 GEN 8",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "kwut4tbbz",
+                "name": "SURFACE PRO6 I5 GEN 8",
+                "number": 17,
+                "status": "not_ready"
+            }
+        ],
+        "13": [
+            {
+                "id": "gtod3qzjp",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "sx74tr3v7",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "s24lg1yg7",
+                "name": "DELL LATITUDE 5510 I7 GEN 10",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "c1g00ngta",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "n6zj3b82i",
+                "name": "DELL 5520 I7 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "1kz7qmxji",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "rvpaprogd",
+                "name": "DELL 5520 I7 GEN 11",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "25xylip8j",
+                "name": "DELL 5520 I7 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "tbyoulwgk",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "ipyubn9o3",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "1i043sejl",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "trqbc9qfo",
+                "name": "LENOVO E580 I5 GEN 7",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "ic21kh40p",
+                "name": "DELL 5567 I5 GEN 7",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "hxjc1ctpg",
+                "name": "DELL 7767 I5 GEN 7",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "hxnsvorjx",
+                "name": "LENOVO E580 I5 GEN 7",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "0tj961272",
+                "name": "LENOVO THNIKBOOK 15 I5 GEN 12",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "b5e4yl38r",
+                "name": "LENOVO E15 I5 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "znr88k6a8",
+                "name": "LENOVO E15 I5 GEN 11",
+                "number": 18,
+                "status": "not_ready"
+            }
+        ],
+        "14": [
+            {
+                "id": "qs36mfhq5",
+                "name": "LENOVO E15 I5 GEN 11",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "t74q995s9",
+                "name": "LENOVO E15 I5 GEN 11",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "fvl3ku6w0",
+                "name": "DELL 3510 I7 GEN 10",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "z2z59co43",
+                "name": "DELL VOSRTO 3510 I3 GEN 11",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "nfih5sc2b",
+                "name": "DELL LATITUDE 3520 I5 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "mgxkmfglp",
+                "name": "DELL 5593 I5D GEN 10",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "p4jlgacqp",
+                "name": "DEL 5593 I5 GEN 10",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "cvwrkv6m7",
+                "name": "DELL 3567 I3 GEN 7",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "34l2jw1wm",
+                "name": "DELL 5566 I3 GEN7",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "8a0wxnf0e",
+                "name": "DELL 3567 I5 GEN 7",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "bkhg4chda",
+                "name": "HP 650 G5 I7 GEN 8",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "f5df1wla1",
+                "name": "DELL 7680 I7 GEN 13",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "0kuhra3r3",
+                "name": "DELL 7670 I7 GEN 12 VGA",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "xed72n1uk",
+                "name": "DELL 7680 I7 GEN 13",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "6y0ha6l7z",
+                "name": "DELL 7750 I7 GEN 10",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "nul3e4q2k",
+                "name": "DELL 7760 I7 GEN 11",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "fsnfwnodq",
+                "name": "LENOVO E590 I5 GEN 8",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "n5ysepwld",
+                "name": "DELL 5510 I7 GEN 6",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "z9o1rge8o",
+                "name": "DELL 5520 I7 GEN 6",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "rcxz9ftk3",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "w05gb6ff0",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 21,
+                "status": "not_ready"
+            },
+            {
+                "id": "ha0vapj6y",
+                "name": "LENOVO X1 YOGA I5 GEN 10",
+                "number": 22,
+                "status": "not_ready"
+            },
+            {
+                "id": "9o76fiss1",
+                "name": "LENOVO E15 I5 GEN 10",
+                "number": 23,
+                "status": "not_ready"
+            },
+            {
+                "id": "104t9k1kq",
+                "name": "LENOVO L580 I5 GEN 8",
+                "number": 24,
+                "status": "not_ready"
+            },
+            {
+                "id": "zliu6w606",
+                "name": "LENOVO E15 I5 GEN 10",
+                "number": 25,
+                "status": "not_ready"
+            },
+            {
+                "id": "dsgy0r2jd",
+                "name": "HP 15 DW I5 GEN 10",
+                "number": 26,
+                "status": "not_ready"
+            }
+        ],
+        "15": [
+            {
+                "id": "bvkus6onb",
+                "name": "dell 5567 i7 gen 7",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "t4yle3plc",
+                "name": "DELL 5567 I5 GEN 7",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "9ewc0r6w6",
+                "name": "DELL 5567 I5 GEN 7",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "lhpxn3j8y",
+                "name": "DELL 3530 I7 GEN 8",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "xsyzjsp4p",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "vkzxvj5v7",
+                "name": "DELL 3570 I3 GEN 6",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "2c6ul4zrs",
+                "name": "DELL 3570 I7 GEN 6",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "fa4ddpgig",
+                "name": "DELL 3570 I3 GEN 6",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "jcg1qyy6g",
+                "name": "DELL 3570 I3 GEN 6",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "s84e4elba",
+                "name": "DELL 3540 I5 GEN 8",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "2xusp9xx8",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "vxneed4jk",
+                "name": "DELL 3520  I5 GEN 11",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "wapldv5a1",
+                "name": "DELL 3540  I7 GEN 8",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "zddkix8d5",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "asx7g7y49",
+                "name": "LENOVO LL14 I5 GEN 12",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "zel91pg3t",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "hl10judh8",
+                "name": "DELL 5440 I7 GEN 13",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "5vm7drat1",
+                "name": "DELL 7430 I5 GEN 12",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "x1cxyw754",
+                "name": "DELL 5430 I7 GEN 12",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "mb27onk99",
+                "name": "DELL 5430 I7 GEN 12",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "n4v2898oc",
+                "name": "DELL 7430  I5 GEN 12",
+                "number": 21,
+                "status": "not_ready"
+            },
+            {
+                "id": "zfpgy5kdi",
+                "name": "DELL 7430 I7 GEN 13",
+                "number": 22,
+                "status": "not_ready"
+            },
+            {
+                "id": "4q5r6s3sz",
+                "name": "DELL 5450",
+                "number": 23,
+                "status": "not_ready"
+            },
+            {
+                "id": "jajc3g98h",
+                "name": "DELL 7440 I7 GEN 13",
+                "number": 24,
+                "status": "not_ready"
+            },
+            {
+                "id": "1o7agyimi",
+                "name": "LENOVO 20 TG I7 GEN 10",
+                "number": 25,
+                "status": "not_ready"
+            },
+            {
+                "id": "vck0ypz6c",
+                "name": "DELL 3581 I9 GEN 13",
+                "number": 26,
+                "status": "not_ready"
+            },
+            {
+                "id": "pm6uys07t",
+                "name": "LENOVO THNIKBOOK 13S I5 GEN 8",
+                "number": 27,
+                "status": "not_ready"
+            },
+            {
+                "id": "zlchk6ok2",
+                "name": "LENOVO T14S  I5 GEN 10",
+                "number": 28,
+                "status": "not_ready"
+            },
+            {
+                "id": "bcdpxnuqz",
+                "name": "DELL 3581 I9 GEN 13",
+                "number": 29,
+                "status": "not_ready"
+            },
+            {
+                "id": "0mahblb56",
+                "name": "LENOVO X1 YOGA I5 GEN 6",
+                "number": 30,
+                "status": "not_ready"
+            },
+            {
+                "id": "bjonamfwd",
+                "name": "LENOVO L14 I7 GEN 10",
+                "number": 31,
+                "status": "not_ready"
+            },
+            {
+                "id": "6klt89d2z",
+                "name": "DELL 3590 I7 GEN 10",
+                "number": 32,
+                "status": "not_ready"
+            }
+        ],
+        "16": [
+            {
+                "id": "hx22nndjo",
+                "name": "DELL 3590 I7 GEN 10",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "onhfxy0b2",
+                "name": "DELL 5559 I5 GEN 6",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "vltlq3kol",
+                "name": "DELL 5559 I5 GEN 6",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "tbwcnvetr",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "5uvmsvkf8",
+                "name": "HP 640 G5 I7 GEN 8",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "cze409jhl",
+                "name": "DELL 3567 I5 I3 GEN 7",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "b10vdjfra",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "wgvhsd2cv",
+                "name": "DELL 3567 I5 GEN 7",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "v0g33nmu3",
+                "name": "DELL 3590 I5 GEN 8",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "iuk65nwgm",
+                "name": "DELL 3590 I5 GEN 7",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "0y2wjcs0s",
+                "name": "DELL 3500 I7 GEN 8",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "m379qoxfx",
+                "name": "DELL 3590 I7 GEN 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "kuapbqwtk",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "l57ash9sy",
+                "name": "DELL 3580 I3 GEN 6",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "rvu5nzikm",
+                "name": "DELL 3580 I3 GEN 6",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "956c8b38z",
+                "name": "DELL 3580 I5 GEN 6",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "8lqx49bn4",
+                "name": "DELL 7520 I7 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            }
+        ],
+        "17": [
+            {
+                "id": "3brsn7wol",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "nq7fgvy2g",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "j3w2xgdrx",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "zvf7a7mf5",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "13hkt4qrm",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "168h4xddq",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "xkdqcmvmq",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "pqxa2o0cm",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "xnr735xir",
+                "name": "DELL 5550 I7 GEN 10",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "aeyj9zwn0",
+                "name": "DELL 3500 I7 GEN 8",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "3oug90v20",
+                "name": "DELL 3500 I7 GEN 10",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "pthwwjjzi",
+                "name": "DELL 3567 I3 GEN 7",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "w0bxjwh6g",
+                "name": "DELL 3567 I3 GEN 7",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "4kpqj7nmj",
+                "name": "LENOVOI X1 YOGA I5 GEN 7",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "l6gkglm6k",
+                "name": "DELL 7520 I7 GEN 7",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "88muuog95",
+                "name": "DELL 3510 I7 GEN 6 NO VGA",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "s6qew62zh",
+                "name": "LENOVO IP3 15 I3 GEN 10",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "7ncph0q8p",
+                "name": "LENOVO X1 YOGA I5 GEN 7",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "k70okw5gf",
+                "name": "LENOVO X1 YOGA I5 GEN 7",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "ka982f7gp",
+                "name": "LENOVO THNIKBOOK 14 RAYZEN 5",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "bdgis3hed",
+                "name": "DELL 5620 I7 GEN 12",
+                "number": 21,
+                "status": "not_ready"
+            },
+            {
+                "id": "cjkap21cy",
+                "name": "DELL 5593 I7 GEN 10",
+                "number": 22,
+                "status": "not_ready"
+            },
+            {
+                "id": "9b2jjw0gu",
+                "name": "DELL 5593 I7 GEN 10",
+                "number": 23,
+                "status": "not_ready"
+            }
+        ],
+        "18": [
+            {
+                "id": "07eswwgv5",
+                "name": "DELL 5567 I7 GEN 7",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "y85vui6sm",
+                "name": "DELL 5593 I5 GEN 10",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "cwsdrase1",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "nkc4vrwrx",
+                "name": "DELL 3520 I7 GEN 11",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "ne2p0yh0o",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "jzvp5nakx",
+                "name": "DELL 5430 I7 GEN 12",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "04s9js4pb",
+                "name": "DELL 5430 I5 GEN 12",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "syllboy1y",
+                "name": "DELL 5430 I5 GEN 12",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "2pre688vt",
+                "name": "DELL 5430 I7 GEN 12",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "h5mfka40m",
+                "name": "DELL 5430  I5 GEN 12",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "27rpnzvvc",
+                "name": "DELL 5440 I5 GEN 13",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "70eotmhli",
+                "name": "DELL 7430 I5 GEN 12",
+                "number": 12,
+                "status": "not_ready"
+            }
+        ],
+        "19": [
+            {
+                "id": "rrkv0q7cb",
+                "name": "DELL 7430 I5 GEN 12",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "tt8bvjwyi",
+                "name": "DELL 7430 I5 GEN 12",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "61frgfthj",
+                "name": "LENOVO X1 YOGA I5 GEN 8",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "l9eaupm2r",
+                "name": "DELL 7430 I5 GEN 12",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "121rn9j8h",
+                "name": "LENOVO X1 YOGA I7 GEN 6",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "x22svhkd0",
+                "name": "LENOVO X1 YOGA I5 GEN 7",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "4u8qg23w3",
+                "name": "LENOVO X1 YOGA I5 GEN 7",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "jvftn4gud",
+                "name": "DELL 7550 I7 GEN 10",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "hqvvge0p8",
+                "name": "DELL 7560 I7 GEN 11 USB X",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "usdw6ggzh",
+                "name": "DELL 7550 I7 GEN 10",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "5bmtknika",
+                "name": "HP 15DW 3000 I5 GEN 11",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "36jclvnbc",
+                "name": "DELL 3581 I9 GEN 13 VGA 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "be9lz2v11",
+                "name": "DELL 5320 I5 GEN 12",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "1pvvto85n",
+                "name": "ASUS GOLD I7 GEN 8 VGA",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "g292dnfib",
+                "name": "DELL 7390 I7 GEN 8 TOUCH",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "pfgph0zzn",
+                "name": "HP 440 G7 I5 GEN 10",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "qmi4kw53n",
+                "name": "LENOVO T470 I7 GEN 6",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "q9qls05gt",
+                "name": "LENOVO L380 I5 GEN 8",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "arvxisj52",
+                "name": "DELL 3310 I3 GEN 8 TOUCH",
+                "number": 19,
+                "status": "not_ready"
+            }
+        ],
+        "20": [
+            {
+                "id": "5hpxq6tm4",
+                "name": "DELL 7760 I7  GEN 11",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "73gnvwgbj",
+                "name": "DELL 3510 I7 GEN 6",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "imazp9rrf",
+                "name": "DELL 7510 I7 GEN 6",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "z1vdztnmn",
+                "name": "DELL 7510 I7 GEN 6",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "fd09crlua",
+                "name": "DELL 7510 I7 GEN 6",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "bwblxqil4",
+                "name": "DELL 7530 I7 GEN 8",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "5i5e39vh0",
+                "name": "DELL 7530 I7 GEN 8",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "6w1uyhl9s",
+                "name": "LENOVO IP3 17  I3 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "o81hmrx11",
+                "name": "LENOVO T560 I5 GEN 6",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "13ty576ac",
+                "name": "DELL 5566 I3 GEN 7",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "w0cyjkh19",
+                "name": "DELL 5567 I7 GEN 7",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "9l60b3syy",
+                "name": "DELL 3593 I5 GEN 10",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "hcscjytph",
+                "name": "DELL 3590 I5 GEN 10",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "mhx10ez8s",
+                "name": "DELL 3567 I5 GEN 7",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "npit44tg2",
+                "name": "DELL 3567 I3 GEN 7",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "n772y2ujm",
+                "name": "DELL 7510 I7 GEN 6 VGA 4G",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "ag6tipfie",
+                "name": "DELL 7510 I7 GEN 6 VGA 4G",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "euymik97a",
+                "name": "DELL 7520 I7 GEN 7",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "0yx7ttuof",
+                "name": "DELL 7510 I7 GEN 6 VGA 2G",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "zjs60nbgk",
+                "name": "DELL 7520 I7 GEN 7 VGA 4G",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "13zehhpn7",
+                "name": "DELL 7730 I9 GEN 8",
+                "number": 21,
+                "status": "not_ready"
+            }
+        ],
+        "21": [
+            {
+                "id": "jsk9nq5n1",
+                "name": "LENOVO P 52 I7 GEN 8",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "zsu01cm32",
+                "name": "LENOVO T470 S I7 GEN 7 TOUCH",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "xpjqz65wq",
+                "name": "LENOVO T450 S I5 GEN 5 SSD 128",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "2w0lytyjw",
+                "name": "LENOVO T450S 5 I5 GEN 5 128 SSD",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "rl3b5llhd",
+                "name": "LENOVO T450S I5 GEN 5 SSD 128",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "kcqrnhai1",
+                "name": "LENOVO T450 I5 GEN 5 HDD 500",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "o7tfjacc7",
+                "name": "LENOVO T450 I5 GEN 5 HDD 500",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "9toc0mgsx",
+                "name": "LENOVO T450 I5 GEN 5 HDD 500",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "pr5yqkrea",
+                "name": "HP 640 G2 I7 GEN 6",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "ib5viw9j6",
+                "name": "LENOVO T450 I5 GEN 5 HDD 500",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "xx0er5k8o",
+                "name": "LENOVO T450 I5 GEN 5 HDD 500",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "v6c7n444b",
+                "name": "LENOVO T450 I5 GEN 5 HDD 500",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "apwik804w",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "o7ufgasjb",
+                "name": "DELL 3520 I3 GEN 10",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "eo3q41aa2",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "huog9rvl5",
+                "name": "LENOVO YOGA 260 I5 GEN 6",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "p1ti35bgz",
+                "name": "LENOVO X1 CARBON I7 GEN 6",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "k5xl700v6",
+                "name": "LENOVO MIX II7 GEN 8",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "mtlrlx73u",
+                "name": "SURFACE PRO 6 I5 GEN 8",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "calopefhm",
+                "name": "SURFACE PRO 6 I5 GEN 8",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "1dqn5y60y",
+                "name": "LENOVO X1 TABLET I7 GEN 7",
+                "number": 21,
+                "status": "not_ready"
+            },
+            {
+                "id": "nhku0k3bm",
+                "name": "LENOVO X1 YOGA I7 GEN 8",
+                "number": 22,
+                "status": "not_ready"
+            },
+            {
+                "id": "cddzdsk4p",
+                "name": "HP 640 G2 I7 GEN 6",
+                "number": 23,
+                "status": "not_ready"
+            },
+            {
+                "id": "87kxrjn80",
+                "name": "HP 740 I5 GEN 4",
+                "number": 24,
+                "status": "not_ready"
+            }
+        ],
+        "01": [
+            {
+                "id": "4q9ko905t",
+                "name": "DELL VOST. 3510 I5 GEN 11",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "jpwudxggu",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "hj5klu5jp",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "8bmbhzeu0",
+                "name": "DELL 3570 I3 GEN 6",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "1g3q3fh9c",
+                "name": "DELL 3570 I7 GEN 6",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "7yfg6axi5",
+                "name": "DELL 3570 I3 GEN 6",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "k2upxv3bf",
+                "name": "DELL 5501 I5 GEN 9",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "f9lgxemif",
+                "name": "DELL 3501 I5 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "ctrm9vxs3",
+                "name": "DELL 5501 I5 GEN 9",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "3b6piw5qn",
+                "name": "DELL 3593 I5 GEN 10",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "ns37x9pxv",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "p6magfdx2",
+                "name": "DELL 3593 I7 GEN 10",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "ruc8p9uub",
+                "name": "DELL 3590 I7 GEN 10",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "wvdwqbcv7",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "cywoidynd",
+                "name": "DELL 3510 I3 GEN 11",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "tkpzyjxuk",
+                "name": "DELL 3510 I3 GEN 11",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "8wmet1e3v",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "oqt35ydcl",
+                "name": "DELL 3581 I9 GEN 13",
+                "number": 18,
+                "status": "not_ready"
+            }
+        ],
+        "02": [
+            {
+                "id": "l28qrtqt1",
+                "name": "DELL 5560 I9 GEN 11",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "ia4q0b8wi",
+                "name": "DELL 5570 I7 GEN 12",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "8xzmxeki1",
+                "name": "DELL 5560 I7 GEN 11",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "xwrxaviq7",
+                "name": "DELL 5560 I7 GEN 11",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "ee3m4kdyd",
+                "name": "DELL 3570 I5 GEN 6",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "0kra84bct",
+                "name": "DELL 3570 I3 GEN 6",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "c3141tufr",
+                "name": "DELL 5593 I5 GEN 10",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "qnmtw0lez",
+                "name": "DELL 5593 I5 GEN 10",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "gia5vzu5e",
+                "name": "DELL 7520 I7 GEN 11",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "u1rx3rs9m",
+                "name": "DELL 7520 I7 GEN 11",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "1bgjq4a3z",
+                "name": "HP 640 G5 I7 GEN 8",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "6ieb0re7q",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "nnjj7zdd8",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "a0lb2sb0l",
+                "name": "DELL 3590 I7 GEN 10",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "wyo5j853c",
+                "name": "DELL 7550 I7 GEN 10",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "kmmqyqlk1",
+                "name": "DELL 7550 I7 GEN 10",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "bb6qj0zac",
+                "name": "DELL 7560 I7 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "2g2m2nf5z",
+                "name": "LENOVO L11 RYZEN 5",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "hoyyj5muj",
+                "name": "LENOVO THINKBOOK 14S YOGA I7 GEN 11",
+                "number": 19,
+                "status": "not_ready"
+            }
+        ],
+        "03": [
+            {
+                "id": "vxrfj8kfh",
+                "name": "LENOVO THINK BOOK 14S I5 GEN 8",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "44ciwfff8",
+                "name": "LENOVO THINK PAD X1 YOGA I5 GEN 7",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "iromry9cw",
+                "name": "LENOVO THNIK PAD X1 YOGA I7 GEN 7",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "vrpnwyuoi",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "mampkvjc0",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "afolhd8o3",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "wbe2i8d19",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "gt35otazb",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "m4q4dgtf9",
+                "name": "DELL I7 GEN 10 2G",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "57dmp3yym",
+                "name": "DELL 5510 I5 GEN 10",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "c8n71g78v",
+                "name": "DELL 5510 I7 GEN 10",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "e1fzuwdy0",
+                "name": "DELL 5510 I7 GRN 10",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "zg3zagi55",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "7rse1tvnn",
+                "name": "LENOVO E14 I7",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "8u86657nj",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "5vrjtee94",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "t25kklv3o",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "3pd8vkun5",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "nusz9gzzw",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "iji8ofnzh",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "n4o1s64lq",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 21,
+                "status": "not_ready"
+            }
+        ],
+        "04": [
+            {
+                "id": "ni1hdk1ys",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "iup8kpmri",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "si5q77t4u",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "dsduyj56z",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "0q65de1zm",
+                "name": "LENOVO T14 I5",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "ucwb5s1x6",
+                "name": "LENOVO E14 I5 GEN 12",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "ou6ktu22c",
+                "name": "LENOVO X1 YOGA I5 GEN8",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "xuraboe2a",
+                "name": "LENOVO THINK BOOK RYZEN 5",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "mvh76au34",
+                "name": "LENOVO T14 RYZEN 5",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "kmwb6uakx",
+                "name": "LENOVO THINK BOOK 14 I7 GEN 10",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "6orovxtn3",
+                "name": "LENOVO E14 I5",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "2nplzet4o",
+                "name": "LENOVO X1 YOGA 15 GEN 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "hjzhidq5d",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "xz4o6dqxj",
+                "name": "HP 640 G4 I7 GEN 8",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "h3srq6d62",
+                "name": "DELL 5559 17 I5",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "cvsb3nany",
+                "name": "DELL 5581 I5 GEN 8",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "gphe3enki",
+                "name": "DELL 5510 I7 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "ou7oslskm",
+                "name": "DELL 5559 I5 GEN 6",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "j98z7csl3",
+                "name": "DELL 5559 I5 GEN 6 TOUCH",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "jq5lppfcr",
+                "name": "DELL 5567 I5 GEN 7",
+                "number": 20,
+                "status": "not_ready"
+            }
+        ],
+        "05": [
+            {
+                "id": "892g7cf8d",
+                "name": "LENOVO E570 I5 GEN 7",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "b9jwqgp7o",
+                "name": "LENOVO T570 I5 GEN 6",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "9c4ds7sog",
+                "name": "LENOVO E570 I5 GEN 7",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "dxj77t9ig",
+                "name": "HP 650 G5 I7 GEN 8",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "blz7uoqrw",
+                "name": "LENOVO E15 I5 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "0j3e02m0b",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "i1vk6igvw",
+                "name": "LENOVO T14 RAYZEN 5",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "ncchxc2gg",
+                "name": "LENOVO T14 I5 GEN 11",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "00y25i236",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "l7el8s9b8",
+                "name": "LENOVO L13 YOGA I5 GEN 11",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "8tjdzir0p",
+                "name": "L13 YOGA I5 GEN 10",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "lm2bc0yfl",
+                "name": "L13 YOGA I5 GEN 10",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "96xcpl1br",
+                "name": "DELL 7750 I7 GEN 10 6G",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "pfbafj2xn",
+                "name": "LENOVO E590 I7 GEN 8",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "supzh2odt",
+                "name": "LENOVO E15 I5 GEN 11",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "ufnfzsxoi",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "gu922br8s",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "bihvx0uxz",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "sokbpm4yj",
+                "name": "LENOVO T580 I7 GEN 8",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "k3r2ccxco",
+                "name": "LENOVO L15 I5 GEN 10",
+                "number": 20,
+                "status": "not_ready"
+            }
+        ],
+        "06": [
+            {
+                "id": "vg5lbxjid",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "kckiv9lab",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "kqepgx8u1",
+                "name": "DELL 3590 I5 GEN 7",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "uy0u0w1s3",
+                "name": "DELL 3590 I5 GEN 7",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "0mr0sve3u",
+                "name": "DELL 3590 I5 GEN 7",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "f6qaq2iy2",
+                "name": "DELL 3590 I5 GEN 7",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "zv9prmlvq",
+                "name": "DELL 3590 I5 GEN 7",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "9nbm55trt",
+                "name": "LENOVO P1 I7 GEN 8 TOUCH",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "lxiqz8pdb",
+                "name": "DELL 3567 I5 GEN 7",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "m20ko9wvt",
+                "name": "DELL 3541 I7 GEN 9 NO VGA",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "ordn9kf1r",
+                "name": "DELL 5470 I5 GEN 6",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "5zqay2igp",
+                "name": "DELL 7540 I7 GEN 9",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "0mbvbm7fv",
+                "name": "DELL 7520 I7 GEN 6 8GB 256 GB",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "zyuiaa2ur",
+                "name": "DELL 5620 I7 GEN 12",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "1ge8djci2",
+                "name": "DELL 3567 I5 GEN 7",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "quia427d9",
+                "name": "DELL 3583 I3 GEN 8 TOUCH",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "lmow96c86",
+                "name": "DELL 3593 I5 GEN 10",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "osmylzusr",
+                "name": "DELL 5566 I3 I5 GEN 7",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "jms9etjd6",
+                "name": "HP X360 I5 GEN 10",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "bnv0gewvx",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 20,
+                "status": "not_ready"
+            }
+        ],
+        "07": [
+            {
+                "id": "mc7wrpw9d",
+                "name": "LENOVO L14 I5 GEN 10",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "qmcupvqbj",
+                "name": "LENOVO T14 RYZEN 5",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "p08jzkoia",
+                "name": "LENOVO T14S I7 GEN 10",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "2lbr52xp6",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "3x4t5898b",
+                "name": "DELL 3520 I5 GEN 11",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "7pznre7vu",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "u84xba7mn",
+                "name": "LENOVO E14 I5 GEN 11",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "lrw71jfxs",
+                "name": "LENOVO T14  I5 GEN 10 16GB",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "t8m5munh4",
+                "name": "LENOVO T14 I7 GEN 10",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "60jjqgucn",
+                "name": "LENOVO YOGA L13 I5 GEN 10",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "bo4ybjn9o",
+                "name": "LENOVO E14 I3 GEN 10",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "ebdfl8ime",
+                "name": "LENOVO E14 I5 GEN 10",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "n0fmmraxv",
+                "name": "LENOVO E14 I3 GEN 10",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "gf5lpzw8r",
+                "name": "LENOVO P51 I7 GEN 7",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "i33o9rtjd",
+                "name": "LENOVO E570 I5 GEN 7",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "nxd4r9yjw",
+                "name": "DELL 7586 I5 GEN 8 X360",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "4tn3f7cef",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "hx7eisas3",
+                "name": "DELL 7520 I7 GEN 6",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "dzg13fpfw",
+                "name": "DELL 5559 I5 GEN 6",
+                "number": 19,
+                "status": "not_ready"
+            },
+            {
+                "id": "73ohtmwg7",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 20,
+                "status": "not_ready"
+            },
+            {
+                "id": "65r708hje",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 21,
+                "status": "not_ready"
+            },
+            {
+                "id": "yyrak9n6y",
+                "name": "LENOVO V15 G3 I3 GEN 12",
+                "number": 22,
+                "status": "not_ready"
+            },
+            {
+                "id": "k7fpylbfv",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 23,
+                "status": "not_ready"
+            },
+            {
+                "id": "0vdvm4v0w",
+                "name": "DELL 5500 I5 GEN 8",
+                "number": 24,
+                "status": "not_ready"
+            }
+        ],
+        "08": [
+            {
+                "id": "d99no185b",
+                "name": "DELL 5560 I7 GEN 11",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "4gwx98zq8",
+                "name": "DELL 5560 I7 GEN 11",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "bh3gpz4ts",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "2uvjlhrel",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "yxd61gxl1",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "zsevz52je",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "d70cv6lny",
+                "name": "LENOVO X1 YOGA I5 GEN 8",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "h0ohzyjju",
+                "name": "LENOVO X1 YOGA I5 GEN 8",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "3hf3bsmn7",
+                "name": "LENOVO L13 YOGA I5 GEN 10",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "7rny0how6",
+                "name": "DELL 3502 CELORN",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "u1k7hrxum",
+                "name": "DELL 3502 CELORN",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "6rjfvma3z",
+                "name": "DELL 3590 I5 GEN 8 NO BATTERY",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "4jh1bnkmk",
+                "name": "DELL 3593I3 GEN 10",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "17rilprd6",
+                "name": "LENOVO IP3 15 ITL I3 GEN 11",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "ov9hdzlg9",
+                "name": "DELL 3590 I5 GEN 8",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "w25xj0ve6",
+                "name": "DELL 3590 I5 GEN 8",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "187p7ula1",
+                "name": "DELL 3590 I7 GEN 8",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "sh1d7ir2x",
+                "name": "DELL 3590 I3 GEN 7 SPEAKER B5ESH",
+                "number": 18,
+                "status": "not_ready"
+            }
+        ],
+        "09": [
+            {
+                "id": "9e6v1tl0b",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 1,
+                "status": "not_ready"
+            },
+            {
+                "id": "e7nbxc0oh",
+                "name": "DELL 3500 I5 GEN 8",
+                "number": 2,
+                "status": "not_ready"
+            },
+            {
+                "id": "fga0vbf21",
+                "name": "DELL3500 I5 GEN 8",
+                "number": 3,
+                "status": "not_ready"
+            },
+            {
+                "id": "ej4s5jyhw",
+                "name": "DELL 3500 I7 GEN 8 VGA 2",
+                "number": 4,
+                "status": "not_ready"
+            },
+            {
+                "id": "1ke9g2s0r",
+                "name": "DELL 3500 I7 GEN 8 VGA 2",
+                "number": 5,
+                "status": "not_ready"
+            },
+            {
+                "id": "duxp5rdha",
+                "name": "DELL 3590 I5 GEN 8",
+                "number": 6,
+                "status": "not_ready"
+            },
+            {
+                "id": "bfj2jvfzy",
+                "name": "DELL 3593 I3 GEN 10",
+                "number": 7,
+                "status": "not_ready"
+            },
+            {
+                "id": "rza7csp6k",
+                "name": "DELL 3590 I3 GEN 7",
+                "number": 8,
+                "status": "not_ready"
+            },
+            {
+                "id": "gn6gmxrfs",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 9,
+                "status": "not_ready"
+            },
+            {
+                "id": "j4t49oink",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 10,
+                "status": "not_ready"
+            },
+            {
+                "id": "s78vuxyxu",
+                "name": "DELL 5520 I5 GEN 11",
+                "number": 11,
+                "status": "not_ready"
+            },
+            {
+                "id": "6zefwyits",
+                "name": "LENOVO E590 I5 GEN 8",
+                "number": 12,
+                "status": "not_ready"
+            },
+            {
+                "id": "pbnz9rsrf",
+                "name": "LENOVO E590 I5 GEN 8",
+                "number": 13,
+                "status": "not_ready"
+            },
+            {
+                "id": "5enu303oz",
+                "name": "LENOVO E590 I5 GEN 8",
+                "number": 14,
+                "status": "not_ready"
+            },
+            {
+                "id": "8grqukesi",
+                "name": "LENOVO E590 I5 GEN 8",
+                "number": 15,
+                "status": "not_ready"
+            },
+            {
+                "id": "g6yr9q2g0",
+                "name": "LENOVO IP3 GAMING I5 GEN 10",
+                "number": 16,
+                "status": "not_ready"
+            },
+            {
+                "id": "69e4v6gxx",
+                "name": "OMEN16 I7 3060",
+                "number": 17,
+                "status": "not_ready"
+            },
+            {
+                "id": "ngx30vscf",
+                "name": "LENOVO THNIKPAD 15P I7 GEN 10",
+                "number": 18,
+                "status": "not_ready"
+            },
+            {
+                "id": "2uwzlpreg",
+                "name": "LENOVO IP5 15IT I5 GEN 11",
+                "number": 19,
+                "status": "not_ready"
+            }
+        ]
+    },
+    "history": [
+        {
+            "type": "SOLD",
+            "laptop": "HP ENVY 15 X360 AMD RAYZEN 5",
+            "box": "15",
+            "comment": "",
+            "timestamp": "2026-03-13T13:35:50.147Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 26,
+            "box": "14",
+            "comment": "Added 26 laptops",
+            "timestamp": "2026-03-12T12:17:26.886Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 18,
+            "box": "13",
+            "comment": "Added 18 laptops",
+            "timestamp": "2026-03-12T12:14:46.506Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 17,
+            "box": "12",
+            "comment": "Added 17 laptops",
+            "timestamp": "2026-03-12T12:12:43.742Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 15,
+            "box": "11",
+            "comment": "Added 15 laptops",
+            "timestamp": "2026-03-12T12:10:35.490Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 14,
+            "box": "10",
+            "comment": "Added 14 laptops",
+            "timestamp": "2026-03-12T12:07:27.097Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 19,
+            "box": "09",
+            "comment": "Added 19 laptops",
+            "timestamp": "2026-03-12T12:05:02.863Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 18,
+            "box": "08",
+            "comment": "Added 18 laptops",
+            "timestamp": "2026-03-12T12:00:17.503Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 24,
+            "box": "07",
+            "comment": "Added 24 laptops",
+            "timestamp": "2026-03-12T11:58:14.482Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 20,
+            "box": "06",
+            "comment": "Added 20 laptops",
+            "timestamp": "2026-03-12T11:55:24.843Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 20,
+            "box": "05",
+            "comment": "Added 20 laptops",
+            "timestamp": "2026-03-12T11:53:28.134Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 20,
+            "box": "04",
+            "comment": "Added 20 laptops",
+            "timestamp": "2026-03-12T11:50:50.645Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 21,
+            "box": "03",
+            "comment": "Added 21 laptops",
+            "timestamp": "2026-03-12T11:47:37.063Z"
+        },
+        {
+            "type": "STATUS_CHANGE",
+            "laptop": "DELL 5593 I5 GEN 10",
+            "box": "02",
+            "oldStatus": "ready",
+            "newStatus": "not_ready",
+            "timestamp": "2026-03-12T11:33:46.884Z"
+        },
+        {
+            "type": "STATUS_CHANGE",
+            "laptop": "DELL 5593 I5 GEN 10",
+            "box": "02",
+            "oldStatus": "not_ready",
+            "newStatus": "ready",
+            "timestamp": "2026-03-12T11:33:45.254Z"
+        },
+        {
+            "type": "ADD_LAPTOP",
+            "laptop": "DELL 5593 I5 GEN 10",
+            "box": "02",
+            "timestamp": "2026-03-12T11:33:41.884Z"
+        },
+        {
+            "type": "ADD_LAPTOP",
+            "laptop": "DELL 3570 I5 GEN 6",
+            "box": "02",
+            "timestamp": "2026-03-12T11:32:33.484Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 17,
+            "box": "02",
+            "comment": "Added 17 laptops",
+            "timestamp": "2026-03-12T11:31:16.737Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 18,
+            "box": "01",
+            "comment": "Added 18 laptops",
+            "timestamp": "2026-03-10T15:04:21.011Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "9",
+            "newName": "09",
+            "timestamp": "2026-03-10T14:57:04.782Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "8",
+            "newName": "08",
+            "timestamp": "2026-03-10T14:57:00.531Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "7",
+            "newName": "07",
+            "timestamp": "2026-03-10T14:56:57.883Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "6",
+            "newName": "06",
+            "timestamp": "2026-03-10T14:56:54.203Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "5",
+            "newName": "05",
+            "timestamp": "2026-03-10T14:56:51.770Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "4",
+            "newName": "04",
+            "timestamp": "2026-03-10T14:56:47.130Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "3",
+            "newName": "03",
+            "timestamp": "2026-03-10T14:56:44.281Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "2",
+            "newName": "02",
+            "timestamp": "2026-03-10T14:56:35.888Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "1",
+            "newName": "01",
+            "timestamp": "2026-03-10T14:56:27.700Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "13",
+            "timestamp": "2026-03-10T14:56:03.934Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "12",
+            "timestamp": "2026-03-10T14:55:58.977Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "11",
+            "timestamp": "2026-03-10T14:55:55.145Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "10",
+            "timestamp": "2026-03-10T14:55:51.203Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "9",
+            "timestamp": "2026-03-10T14:55:47.618Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "8",
+            "timestamp": "2026-03-10T14:55:44.978Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "7",
+            "timestamp": "2026-03-10T14:55:42.205Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "6",
+            "timestamp": "2026-03-10T14:55:39.032Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "5",
+            "timestamp": "2026-03-10T14:55:35.075Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "4",
+            "timestamp": "2026-03-10T14:55:30.180Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "3",
+            "timestamp": "2026-03-10T14:55:26.755Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "2",
+            "timestamp": "2026-03-10T14:55:24.643Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "1",
+            "timestamp": "2026-03-10T14:55:21.923Z"
+        },
+        {
+            "type": "RENAME_BOX",
+            "oldName": "12",
+            "newName": "14",
+            "timestamp": "2026-03-10T14:54:57.864Z"
+        },
+        {
+            "type": "ADD_LAPTOP",
+            "laptop": "DELL 7730 I9 GEN 8",
+            "box": "20",
+            "timestamp": "2026-03-10T14:41:30.727Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 24,
+            "box": "21",
+            "comment": "Added 24 laptops",
+            "timestamp": "2026-03-10T14:12:47.438Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "21",
+            "timestamp": "2026-03-10T13:48:12.842Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 20,
+            "box": "20",
+            "comment": "Added 20 laptops",
+            "timestamp": "2026-03-10T13:47:54.781Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "20",
+            "timestamp": "2026-03-10T13:11:57.358Z"
+        },
+        {
+            "type": "BULK_ADD",
+            "count": 19,
+            "box": "19",
+            "comment": "Added 19 laptops",
+            "timestamp": "2026-03-10T12:49:51.510Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "19",
+            "timestamp": "2026-03-10T12:03:28.251Z"
+        },
+        {
+            "type": "ADD_BOX",
+            "box": "12",
+            "timestamp": "2026-03-10T12:03:03.702Z"
+        }
+    ],
+    "totalSold": 1,
+    "viewMode": "grid"
+}
